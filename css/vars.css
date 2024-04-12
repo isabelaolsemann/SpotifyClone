@@ -1,0 +1,13 @@
+/* declara variavel */
+
+:root {
+    /* Fonte */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* Background */
+    --bg-icon: #131313;
+
+    /* Bg-color */
+    --bg-arrow-color: rgba(0, 0, 07);
+}
+

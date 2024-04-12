@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    padding: 12px;
+}
+
+.sidebar-navagation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 15px 0 10px 16px;
+    cursor: pointer;
+}
+
+.sidebar-navagation .logo{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 0 16px 16px 0;
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.options-sidebar ul li .fa {
+    padding: 10px 0 0 0;
+    margin-top: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+}
+
+
+.options-sidebar a {
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.options-sidebar a:hover {
+    color: #fff;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library-btn {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transform: none;
+    padding: 20px 10px;
+}
+
+.library-btn span:hover {
+    color: #fff;
+}
+
+.library .library-btn .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library-content .fa-plus {
+    margin: 24px 10px;
+}
+
+.fa-plus:hover {
+    color: #fff;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-playlist .section-playlist-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist-content .text {
+    padding: 5px;
+    color: #fff;
+}
+
+.section-playlist-content .title {
+    font-weight: 700;
+}
+
+.section-playlist-content .subtitle {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-playlist-button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    counter-reset: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.section-playlist-button:hover{
+    transform: scale(1.1);
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages-button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.footer-container-flex {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    border-radius: 10px;
+    height: 70px;
+}
+
+.footer-sign {
+    margin: 20px 10px 20px 25px;
+    color: #fff;
+}
+
+.footer-sign p {
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    margin: 10px 25px 20px 10px;
+}
+
+.footer-btn button {
+    background-color: #fff;
+    counter-reset: #000;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 150px;
+    max-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.footer-btn button:hover {
+    transform: scale(1.1);
+}

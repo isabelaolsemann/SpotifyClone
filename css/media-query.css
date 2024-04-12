@@ -1,0 +1,127 @@
+/* Laptop Smaller than 1020px */
+@media screen and (max-width: 1050px){
+    .sidebar {
+        width: 23%;
+    }
+    .languages .languages-button {
+        width: 140px;
+    }
+    .main-container {
+        width: 78%;
+    }
+    .header-search {
+        width: 300px;
+        height: 40px;
+    }
+    .subscribe, .log-in {
+        width: 85px;
+        height: 42px;
+        font-size: 16px;
+    }
+    .subscribe {
+        margin-right: 5px;
+    }
+}
+
+/* Tablet - Smaller than 800px */
+@media screen and (max-width: 800px){
+    .offer-list-item {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    } 
+    .sidebar .library {
+        display: none;
+    }
+    .sidebar {
+        position: initial;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-bottom: 2px solid #A7A7A7;
+    }
+    .sidebar-navagation .logo {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .sidebar-navagation .options-sidebar {
+        display: none;
+    }
+
+    /* content */
+    .main-container {
+    width: 100%;
+    height: auto; 
+    }
+
+    .footer-sign h3 {
+        font-size: 12px;
+    }
+}
+
+/* Smartphone - Smaller than 400px */
+@media screen and (max-width: 400px){
+    /* nav */
+    .right-cont {
+        display: none;
+    }
+    .header-search {
+        width: 150px;
+        height: 40px;
+    }
+    .subscribe, .log-in {
+        width: 65px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .subscribe {
+        margin-right: 5px;
+    }
+    
+    /* content */
+    .offer-list-item {
+        grid-template-columns: 1fr 1fr!important;
+    } 
+    .scroll-container {
+        overflow: none;
+    }
+
+    /* footer */
+    .footer-container {
+        font-size: 12px;
+    }
+
+    .footer-btn button {
+        display: none;
+    }
+}
+
+/* Smartphone - Smaller than 400px */
+@media screen and (max-width: 360px){
+    
+    .header-search {
+        width: 120px;
+        height: 40px;
+    }
+    .subscribe, .log-in {
+        width: 65px;
+        height: 32px;
+        font-size: 12px;
+    }
+    .subscribe {
+        margin-right: 2px;
+    }
+    
+    /* content */
+    .offer-list-item {
+        grid-template-columns: 1fr !important;
+    } 
+    .scroll-container {
+        overflow: none;
+    }
+
+    /* footer */
+    .footer-container {
+        display: none;
+    }
+}
